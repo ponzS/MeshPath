@@ -1,0 +1,26 @@
+{
+	"name": "meshpath",
+	"version": "0.0.1",
+	"description": "p2pMesh E2EE Chat/Video Call",
+	"type": "module",
+	"packageManager": "pnpm@10.10.0",
+	"main": "server.js",
+	"files": [
+		"server.js",
+		"start.js",
+		"public/index.html"
+	],
+	"scripts": {
+		"start": "node start.js",
+		"build": "node build.js"
+	},
+	"dependencies": {
+		"dotenv": "16.5.0",
+		"express": "5.1.0",
+		"ip": "2.0.1",
+		"qr": "0.4.2",
+		"socket.io": "^4.8.1",
+		"node-turn": "^0.0.6",
+		"@noble/curves": "^1.9.7"
+	}
+}
